@@ -1,0 +1,65 @@
+[monitor] mkdir('./tempdir', 777) = -1
+[monitor] opendir('./tempdir') = /home/tang/unix_programming/unixhw2/tempdir
+[monitor] fdopendir(4) = /home/tang/unix_programming/unixhw2/tempdir
+[monitor] readdir('/home/tang/unix_programming/unixhw2/tempdir') = (inode=7209387, offset=4350165457017156173, reclen=24, type=4, name=.)
+[monitor] readdir_r('/home/tang/unix_programming/unixhw2/tempdir', (inode=7213808, offset=9223372036854775807, reclen=24, type=4, name=..), 0x7ffdd9e4dae0) = 0
+[monitor] rewinddir('/home/tang/unix_programming/unixhw2/tempdir')
+[monitor] seekdir('/home/tang/unix_programming/unixhw2/tempdir', 0)
+[monitor] telldir('/home/tang/unix_programming/unixhw2/tempdir') = 9223372036854775807
+[monitor] closedir('/home/tang/unix_programming/unixhw2/tempdir/unixhw2/tempdir') = 0
+[monitor] open('temp',0) = 5
+[monitor] rename('./temp','./temp2') = 0
+[monitor] setbuf('/home/tang/unix_programming/unixhw2/temp2',(nil))
+[monitor] setbuf('/home/tang/unix_programming/unixhw2/temp2',(nil),0,1024) = 0
+[monitor] close('/home/tang/unix_programming/unixhw2/temp2') = 0
+[monitor] tempnam('/tmp', 'tempXXXXXX') = /tmp/tempXA5cXtG
+[monitor] tmpfile('') = /tmp/tmpfbFg2Fb (deleted)
+[monitor] tmpnam('/tmp/fileY0u7RG') = /tmp/fileY0u7RG
+[monitor] mkdtemp('/tmp/tmpdir.bXMc4b') = /tmp/tmpdir.bXMc4b
+[monitor] mkstemp('/tmp/tmp.abxigH') = 7
+[monitor] getenv('HOME') = /home/tang
+[monitor] putenv('TEST=test') = 0
+[monitor] getenv('TEST') = test
+[monitor] setenv('TEST','test2','1') = 0
+[monitor] getenv('TEST') = test2
+[monitor] srand('1492443789')
+[monitor] rand() = 226906562
+[monitor] rand_r('2170610064') = 899628384
+[monitor] chdir('../123') = 0
+[monitor] getcwd('/home/tang/unix_programming/123','1024') = /home/tang/unix_programming/123
+[monitor] chown('./temp2','1000','1000') = -1
+[monitor] pipe('8','9') = 0
+[monitor] dup('8') = 10
+[monitor] dup2('1','9') = 9
+[monitor] fchdir('pipe:[90638]Û') = -1
+[monitor] fchown('/dev/pts/2¶NÛ','1000','1000') = 0
+[monitor] fsync('/dev/pts/2¶NÛ') = -1
+[monitor] ftruncate('/dev/pts/2¶NÛ','0') = -1
+[monitor] getegid() = 1000
+[monitor] geteuid() = 1000
+[monitor] getgid() = 1000
+[monitor] getuid() = 1000
+[monitor] setegid('1000') = 0
+[monitor] seteuid('1000') = 0
+[monitor] setgid('1000') = 0
+[monitor] setuid('1000') = 0
+[monitor] link('./temp2','./temp2_link') = -1
+[monitor] symlink('./temp2','./temp2_slink') = 0
+[monitor] readlink('./temp2_slink','/home/tang/unix_programming/123','0') = -1
+[monitor] unlink('./temp2_link') = -1
+[monitor] pread('/dev/pts/2¶NÛ','0x7ffdd9e4dfe0','0','0') = -1
+[monitor] pwrite('/dev/pts/2¶NÛ','0x7ffdd9e4dfe0','0','0') = -1
+[monitor] read('/dev/pts/2¶NÛ','0x7ffdd9e4dfe0','0') = 0
+[monitor] write('/dev/pts/2¶NÛ','0x7ffdd9e4dfe0','0') = 0
+[monitor] mkfifo('./myfifo', 777) = 0
+[monitor] remove('./myfifo') = 0
+[monitor] chmod('./temp2','777') = -1
+[monitor] fchmod('/dev/pts/2¶NÛ','777') = 0
+[monitor] umask('777') = 2
+[monitor] __fxstat('/dev/pts/2¶NÛ',(dev=14,ino=5,mode=20777,nlink=1,uid=1000,gid=1000,rdev=34818,size=0,blksize=1024,blocks=0,atime=1492443785,mtime=1492443785,ctime=1492443789)=0
+)[monitor] __lxstat('./temp2_slink',(dev=2049,ino=7340191,mode=120777,nlink=1,uid=1000,gid=1000,rdev=0,size=7,blksize=4096,blocks=0,atime=1492443789,mtime=1492443789,ctime=1492443789)=0
+)[monitor] __xstat('./temp2',0x7ffdd9e4db20)=-1
+[monitor] unlink('./temp2_slink') = 0
+[monitor] remove('./temp2') = -1
+[monitor] rmdir('./tempdir') = -1
+[monitor] exit('0')
