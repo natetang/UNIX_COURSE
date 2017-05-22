@@ -1,0 +1,19 @@
+what I did
+
+ > Execute a single command.
+
+ > Properly block or unblock signals
+
+ > Replace standard input/output of a process using the redirection operators (< and >).
+
+ > Setup foreground process group and background process groups.
+
+ > Manipulate environment variables: provide commands like export and unset to add and remove environment variables, respectively.
+
+ > (0518 new upload) Expand of the * and ? operators.
+
+  
+If you goy any problem with my code . let me know . Thanks .
+
+ reference: https://github.com/jmreyes/simple-c-shell/blob/master/simple-c-shell.c
+			https://brennan.io/2015/01/16/write-a-shell-in-c/
